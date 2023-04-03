@@ -1,0 +1,26 @@
+{
+    "name": "multisyscorp/transportify-deliveree",
+    "description": "Transportify Deliveree Package",
+    "autoload": {
+        "psr-4": {
+            "MsysCorp\\TransportifyDeliveree\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MsysCorp\\TransportifyDeliveree\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karlo Ted",
+            "email": "kvted@multisyscorp.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.19"
+    }
+}

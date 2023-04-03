@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "vehicle_type_id": 1,
+            "vehicle_type_name": "Motorcycle",
+            "time_type":"now",
+            "total_fees": 500,
+            "currency": "Rp",
+            "total_distance": 0.0,
+            "vehicle_type": {
+                "id": 21,
+                "name": "Double Engkel Pickup",
+                "cargo_length": 300.0,
+                "cargo_height": 200.0,
+                "cargo_width": 200.0,
+                "cargo_weight": 2000.0,
+                "cargo_cubic_meter": 10.0,
+                "minimum_pickup_time": "2021-09-24T12:36:28.538+07:00",
+                "quick_choices": [
+                    {
+                        "id": 272,
+                        "schedule_time": 5,
+                        "time_type": "now"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "id": 140,
+      "amount": 1,
+      "unit_price": 50000,
+      "name": "Extra Helper",
+      "position": 1,
+      "pricing_method": "normal"
+    },
+    {
+      "id": 416,
+      "amount": 0,
+      "unit_price": 0.0,
+      "name": "Goods Insurance",
+      "position": 2,
+      "pricings": [
+        {
+          "id": 2146,
+          "fees": 0.0,
+          "position": 1,
+          "level_price": 1000000000.0,
+          "display_level_price": "Rp 1 billion",
+          "display_fees": "Free",
+          "display_fees_without_currency": "Free"
+        }
+      ],
+      "pricing_method": "by_options"
+    }
+  ]
+}

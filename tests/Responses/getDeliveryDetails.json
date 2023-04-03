@@ -1,0 +1,187 @@
+{
+    "id": 100,
+    "customer_id": 22,
+    "driver_id": 403,
+    "driver": {
+        "id": 403,
+        "name": "Duke the driver",
+        "phone": "+84903398399",
+        "driver_image_url": "https://webapp.deliveree.com/...",
+        "last_known_position_lat": 10.767930,
+        "last_known_position_lng": 106.696440
+    },
+    "vehicle_type_id": 1,
+    "company_id": 33,
+    "time_type": "now",
+    "status": "delivery_in_progress",
+    "note": "Just a note",
+    "total_fees": 500,
+    "currency": "Rp",
+    "tracking_url": "https://webapp.deliveree.com/...",
+    "job_order_number": "66666",
+    "eta_from_driver_to_pickup": 60,
+    "distance_from_driver_to_pickup": 1.2,
+    "created_at": "2016-01-29T01:35:08Z",
+    "pickup_time": "2016-02-01T01:36:08Z",
+    "completed_at": null,
+    "vehicle": {
+        "vehicle_attributes": {
+            "plate_number": "SPIL Blue 40ft - 000.01"
+        }
+    },
+    "locations": [
+        {
+            "address": "Jl. Sultan Iskandar Muda No.21, Arteri Pondok Indah, Pd. Pinang, Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta, Indonesia",
+            "latitude": -6.2608232,
+            "longitude": 106.7884168,
+            "recipient_name": "Duke",
+            "recipient_phone": "+84903398399",
+            "note": "Second floor, room 609",
+            "status": "",
+            "failed_delivery_reason": "",
+            "position_trackings": [
+                {
+                    "id": 1,
+                    "latitude": -6.272444,
+                    "longitude": 106.805534,
+                    "tracked_at": "2016-01-29T03:35:08Z",
+                    "tracking_type": "location_have_arrived"
+                },
+                {
+                    "id": 2,
+                    "latitude": -6.272444,
+                    "longitude": 106.805534,
+                    "tracked_at": "2016-01-29T03:55:08Z",
+                    "tracking_type": "location_accept_delivery"
+                }
+            ],
+            "proof_of_delivery_photos": [
+                {
+                    "photo_type": "proof_of_delivery",
+                    "photo_name": "Proof of delivery",
+                    "image_url": "https://webapp.deliveree.com/...",
+                    "image_content_type": "image/png"
+                },
+                {
+                    "photo_type": "proof_of_delivery",
+                    "photo_name": "Proof of delivery",
+                    "image_url": "https://webapp.deliveree.com/...",
+                    "image_content_type": "image/png"
+                }
+            ],
+            "signature_url": "https://webapp.deliveree.com/..."
+        },
+        {
+            "address": "Gedung Inti Sentra, Jl. Taman Kemang, RT.14/RW.1, Bangka, Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta, Indonesia",
+            "latitude": -6.2608232,
+            "longitude": 106.7884168,
+            "recipient_name": "Nam",
+            "recipient_phone": "+84903856534",
+            "note": "First floor, right room.",
+            "status": "Failed",
+            "failed_delivery_reason": "Recipient rejected",
+            "need_cod": true,
+            "cod_note": "You need to get money from Nam",
+            "cod_invoice_fees": 5000,
+            "need_pod":true,
+            "pod_note": "You need to ...",
+            "position_trackings": [
+                {
+                    "id": 3,
+                    "latitude": -1.003189,
+                    "longitude": 101.972332,
+                    "tracked_at": "2016-01-29T05:35:08Z",
+                    "tracking_type": "location_have_arrived"
+                },
+                {
+                    "id": 4,
+                    "latitude": -1.003189,
+                    "longitude": 101.972332,
+                    "tracked_at": "2016-01-29T05:55:08Z",
+                    "tracking_type": "location_accept_delivery"
+                }
+            ],
+            "proof_of_delivery_photos": [
+                {
+                    "photo_type": "proof_of_delivery",
+                    "photo_name": "Proof of delivery",
+                    "image_url": "https://webapp.deliveree.com/...",
+                    "image_content_type": "image/png"
+                },
+                {
+                    "photo_type": "proof_of_delivery",
+                    "photo_name": "Proof of delivery",
+                    "image_url": "https://webapp.deliveree.com/...",
+                    "image_content_type": "image/png"
+                }
+            ],
+            "signature_url": "https://webapp.deliveree.com/..."
+        },
+        {
+            "address": "Lavenue Apartemen, Jl. Ps. Minggu Raya, RT.7/RW.2, Pancoran, South Jakarta City, Jakarta, Indonesia",
+            "latitude": -6.248446679393533,
+            "longitude": 106.84431951392108,
+            "recipient_name": "Duke",
+            "recipient_phone": "+84903856534",
+            "note": "Office tower, 19th floor",
+            "status": "",
+            "failed_delivery_reason": "",
+            "position_trackings": [
+                {
+                    "id": 3,
+                    "latitude": -1.003189,
+                    "longitude": 101.972332,
+                    "tracked_at": "2016-01-29T05:35:08Z",
+                    "tracking_type": "location_have_arrived"
+                },
+                {
+                    "id": 4,
+                    "latitude": -1.003189,
+                    "longitude": 101.972332,
+                    "tracked_at": "2016-01-29T05:55:08Z",
+                    "tracking_type": "location_accept_delivery"
+                }
+            ],
+            "proof_of_delivery_photos": [
+                {
+                    "photo_type": "proof_of_delivery",
+                    "photo_name": "Proof of delivery",
+                    "image_url": "https://webapp.deliveree.com/...",
+                    "image_content_type": "image/png"
+                },
+                {
+                    "photo_type": "proof_of_delivery",
+                    "photo_name": "Proof of delivery",
+                    "image_url": "https://webapp.deliveree.com/...",
+                    "image_content_type": "image/png"
+                }
+            ],
+            "signature_url": "https://webapp.deliveree.com/..."
+        }
+    ],
+    "require_signatures": true,
+    "booking_extra_requirements": [
+        {
+            "selected_amount": 1,
+            "extra_requirement_id": 140,
+            "name": "Extra Helper",
+            "unit_price": 50000,
+            "display_level_price": null,
+            "display_fees": "Free",
+            "display_fees_without_currency": "Free",
+            "position": 1,
+            "is_insurance": false
+        },
+        {
+            "selected_amount": 1,
+            "extra_requirement_id": 416,
+            "name": "Goods Insurance",
+            "unit_price": 0.0,
+            "display_level_price": "Rp 1.000.000.000",
+            "display_fees": "Free",
+            "display_fees_without_currency": "Free",
+            "position": 1,
+            "is_insurance": true
+        }
+    ]
+}

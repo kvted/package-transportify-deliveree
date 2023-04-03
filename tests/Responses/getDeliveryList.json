@@ -1,0 +1,82 @@
+{
+  "pagination": {
+    "total_count": 500,
+    "per_page": 25,
+    "next_page": "https://api.deliveree.com/public_api/{version}/...",
+    "previous_page": "https://api.deliveree.com/public_api/{version}/..."
+  },
+  "data": [
+    {
+      "id": 263979,
+      "customer_id": 5348,
+      "driver_id": 403,
+      "vehicle_type_id": 1,
+      "company_id": 569,
+      "time_type": "now",
+      "status": "delivery_in_progress",
+      "note": "Fragile item that needs good care.",
+      "total_fees": 400,
+      "currency": "฿",
+      "tracking_url": "http://localhost:3000/SqCkEVNiUbfLFey97",
+      "job_order_number": "66666",
+      "eta_from_driver_to_pickup": null,
+      "distance_from_driver_to_pickup": null,
+      "created_at": "2021-07-01T18:37:16+07:00",
+      "pickup_time": null,
+      "completed_at": null,
+      "driver": null,
+      "vehicle": {
+        "vehicle_attributes": {
+          "plate_number": null
+        }
+      },
+      "locations": [
+        {
+          "id": 707398,
+          "name": "buu dien thanh pho ho chi minh",
+          "driver_note": null,
+          "note": "Second floor, room 609",
+          "recipient_name": "Duke",
+          "position_trackings": [],
+          "proof_of_delivery_photos": [],
+          "signature_url": null
+        },
+        {
+          "id": 707399,
+          "name": "buu dien thanh pho ho chi minh",
+          "driver_note": null,
+          "note": "Second floor, room 609",
+          "recipient_name": "Duke",
+          "position_trackings": [],
+          "proof_of_delivery_photos": [],
+          "signature_url": null
+        }
+      ],
+      "require_signatures": true,
+      "booking_extra_requirements": [
+        {
+          "selected_amount": 1,
+          "extra_requirement_id": 140,
+          "name": "Extra Helper",
+          "unit_price": 50000,
+          "display_level_price": null,
+          "display_fees": "Free",
+          "display_fees_without_currency": "Free",
+          "position": 1,
+          "is_insurance": false
+        },
+        {
+          "selected_amount": 1,
+          "extra_requirement_id": 416,
+          "name": "Goods Insurance",
+          "unit_price": 0.0,
+          "display_level_price": "Rp 1.000.000.000",
+          "display_fees": "Free",
+          "display_fees_without_currency": "Free",
+          "position": 1,
+          "is_insurance": true
+        }
+      ]
+    }
+  ]
+}

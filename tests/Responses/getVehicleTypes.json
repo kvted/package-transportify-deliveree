@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "id": 27,
+            "name": "Closed Van",
+            "cargo_length": 200,
+            "cargo_height": 175,
+            "cargo_width": 180,
+            "cargo_weight": 1700,
+            "cargo_cubic_meter": 7,
+            "minimum_pickup_time_now": "2021-09-24T10:44:06.664+07:00",
+            "minimum_pickup_time_schedule": "2021-09-24T11:44:06.664+07:00",
+            "minimum_pickup_time_fullday": "2021-09-24T11:44:06.664+07:00",
+            "minimum_pickup_time_fpr": "2021-09-25T09:44:06.664+07:00",
+            "quick_choices": [
+                {
+                    "id": 318,
+                    "schedule_time": 15,
+                    "time_type": "now"
+                },
+                {
+                    "id": 319,
+                    "schedule_time": 30,
+                    "time_type": "now"
+                },
+                {
+                    "id": 320,
+                    "schedule_time": 45,
+                    "time_type": "schedule"
+                }
+            ]
+        },
+        {
+            "id": 82,
+            "name": "L300",
+            "cargo_length": 210,
+            "cargo_height": 125,
+            "cargo_width": 125,
+            "cargo_weight": 1000,
+            "cargo_cubic_meter": 3.3,
+            "minimum_pickup_time_schedule": "2021-09-24T10:44:06.684+07:00",
+            "minimum_pickup_time_fullday": "2021-09-24T10:44:06.684+07:00",
+            "minimum_pickup_time_fpr": "2021-09-25T09:44:06.684+07:00"
+        }
+    ]
+}

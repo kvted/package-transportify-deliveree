@@ -1,0 +1,9 @@
+{
+  "name": "Company Name",
+  "user_type": "bp_account",
+  "country_code": "ID",
+  "time_zone": "Bangkok",
+  "currency": "Rp",
+  "fleet_price_url": "https://www.deliveree.com/id/en/whole-vehicle-fleet-prices/",
+  "allow_post_payment": true
+}
